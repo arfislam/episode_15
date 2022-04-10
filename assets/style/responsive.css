@@ -1,0 +1,409 @@
+@media screen and (max-width: 575.98px) {
+    #header .icon {
+        padding-top: -20px;
+    }
+
+    #header .icon ul {
+        border: var(--border);
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    #header .social_icon ul {
+        justify-content: center;
+    }
+
+    #header .icon ul li i {
+        line-height: 20px;
+    }
+
+    #header .icon ul li span {
+        line-height: 20px;
+    }
+
+    nav {
+        padding: 14px 0px;
+        position: relative;
+    }
+
+    nav .nav_logo {
+        text-align: center;
+
+    }
+
+    nav ul {
+        flex-direction: column;
+        position: absolute;
+        top: 110px;
+        left: 0px;
+        background-color: #fff;
+        padding: 10px 5px;
+        box-shadow: 0px 0px 10px rgba(37, 32, 32, 0.836);
+        border-radius: 3px;
+        display: none;
+    }
+
+    nav ul.active {
+        display: block;
+    }
+
+    nav ul li a {
+        padding: 0px 10px
+    }
+
+    nav .signup_button {
+        margin-top: 15px;
+        float: right;
+        padding: 9px 24px;
+        border-radius: 24px;
+    }
+
+    nav .signup_button a {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    nav .manu_bar {
+        margin-top: 15px;
+    }
+
+    /* banner part responsive start  */
+    #banner .banner_body {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    #banner .banner_body h2 {
+        font-size: 20px;
+        line-height: 24px;
+        padding-bottom: 10px;
+    }
+
+    #banner .banner_body p {
+        font-size: 12px;
+        line-height: 16px;
+        padding-bottom: 5px;
+        text-align: justify;
+    }
+
+    #banner .banner_body img {
+        width: 100%;
+    }
+
+    #banner .banner_form {
+        padding-bottom: 0px;
+    }
+
+    #banner .banner_form p {
+        font-size: 12px;
+        line-height: 14px;
+        padding-top: 20px;
+    }
+
+    .common_heading {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .common_heading h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    /* signup part responsive start  */
+    #community .arrow ul {
+        margin-right: 70px;
+    }
+
+    #community .community_body .sign_up .sign_up_body a {
+        font-size: 18px;
+        line-height: 18px;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+
+    #community .community_body .sign_up .sign_up_body ul li {
+        font-size: 12px;
+        line-height: 8px;
+    }
+
+    #community .community_body .sign_up .sign_up_icon a i {
+        font-size: 40px;
+        line-height: 35px;
+    }
+
+    #community .community_icon {
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+
+    #community .community_icon .community_common_icon {
+        padding-top: 10px;
+    }
+
+    #community .community_icon .community_common_icon h4 {
+        padding-top: 8px;
+    }
+
+    /* services part start  */
+
+    #Services .services_body {
+        padding-top: 10px;
+    }
+
+    #Services .services_body h4 {
+        padding: 10px 0px;
+    }
+
+    #Services .services_body .price {
+        height: 70px;
+        width: 70px;
+    }
+
+    #Services .services_body .price h3 {
+        font-size: 15px;
+        line-height: 15px;
+        padding-bottom: 3px;
+        padding-top: 25px;
+    }
+
+    #Services .services_body .keyword {
+        padding-top: 15px;
+        padding-bottom: 0px;
+    }
+
+    #Services .services_body .keyword ul li {
+        font-size: 10px;
+        letter-spacing: 0px;
+        line-height: 10px;
+        padding-bottom: 10px;
+    }
+
+    #Services .services_body .keyword ul li i {
+        padding-right: 7px;
+    }
+
+    #Services .services_body .PURCHASE_button a {
+        line-height: 10px;
+        border-radius: 15px;
+        padding: 10px 25px;
+    }
+    /* edition part start  */
+
+    #edition .common_heading h2 {
+        font-size: 16px;
+        line-height: 20px;
+        padding-top: 15px;
+    }
+    #edition .edition_body {
+        margin-bottom: 15px;
+    }
+    #edition .edition_body i {
+        font-size: 50px;
+        line-height: 50px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+    #edition .edition_body h3 {
+        font-size: 15px;
+        line-height: 15px;
+        padding-top: 12px;
+        padding-bottom: 10px;
+    }
+    #edition .edition_body p {
+        font-size: 12px;
+        line-height: 17px;
+        padding-bottom: 5px;
+        text-align: justify;
+        padding: 0px 8px;
+    }
+    /* newsletter part start  */
+    #newslitter {
+        margin-top: 20px;
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+    #newslitter .newslitter_body h4 {
+        font-size: 14px;
+        line-height: 14px;
+        padding-bottom: 13px;
+    }
+    #newslitter .newslitter_body p {
+        font-size: 12px;
+        line-height: 16px;
+        padding-bottom: 0px;
+    }
+    #newslitter .newslitter_body form input {
+        font-size: 12px;
+        line-height: 12px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    #newslitter .newslitter_body form i {
+        font-size: 18px;
+        line-height: 18px;
+        padding: 6px 20px;
+    }
+    #newslitter .links h4 {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    #newslitter .links ul li a {
+        font-size: 12px;
+        letter-spacing: 0px;
+        line-height: 13px;
+    }
+    #newslitter .links ul li {
+        padding-bottom: 0px;
+    }
+    footer {
+        padding-top: 10px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    footer p {
+        text-align: center;
+        padding-top: 15px;
+    }
+}
+@media (min-width:576px) and (max-width:767.98px){
+    #header .social_icon ul {
+        justify-content: center;
+    }
+    #header .social_icon ul li a i {
+        font-size: 12px;
+        line-height: 30px;
+        padding: 0px 20px;
+    }
+    #header .icon ul {
+        justify-content: center;
+    }
+    nav{
+        position: relative;
+        padding: 10px 0px;
+    }
+    .nav_logo {
+        text-align: center;
+    }
+    nav ul {
+        position: absolute;
+        flex-direction: column;
+        top: 60px;
+        left: 17px;
+        background-color: white;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 10px rgba(61, 50, 50, 0.651);
+        display: none;
+    }
+    nav ul.active {
+        display: block;
+    }
+    nav button i{
+        color:#5db442
+    }
+
+    nav ul li a {
+        padding: 5px 10px;
+    }
+    nav .signup_button {
+        padding: 8px 20px;
+        float: right;
+    }
+    #banner .banner_body {
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+    #banner .banner_body h2 {
+        font-size: 18px;
+        line-height: 18px;
+        padding-bottom: 10px;
+    }
+    #banner .banner_body p {
+        font-size: 12px;
+        line-height: 16px;
+        padding-bottom: 0px;
+    }
+    #banner .banner_body img {
+        width: 100%;
+    }
+    #banner .banner_body {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    #banner .banner_form {
+        padding-bottom: 5px;
+    }
+    #banner .banner_form form button {
+        font-size: 12px;
+    }
+    /* community part start  */
+    .common_heading {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .common_heading h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    #community .community_body .sign_up .sign_up_body a {
+        font-size: 18px;
+        line-height: 18px;
+        padding-bottom: 5px;
+        text-align: left;
+    }
+    #community .community_body .sign_up .sign_up_body ul li {
+        font-size: 12px;
+        line-height: 12px;
+        padding-bottom: 5px;
+
+    }
+    #community .community_body .sign_up .sign_up_icon a i {
+        font-size: 38px;
+        line-height: 35px;
+    }
+    #community .community_body .sign_up .sign_up_icon {
+        padding-right: 5px;
+    }
+    #community .community_icon {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #community .arrow ul {
+        margin-right: 80px;
+    }
+    #edition .edition_body p {
+        text-align: justify;
+        padding: 0px 10px;
+    }
+    #edition .edition_body {
+        margin-bottom: 20px;
+    }
+    #newslitter {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #newslitter .links {
+        margin-bottom: 30px;
+    }
+    #newslitter .newslitter_body h4 {
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    #newslitter .newslitter_body p {
+        padding-left: 10px;
+    }
+    #newslitter .links ul li a {
+        font-size: 12px;
+        line-height: 12px;
+
+    }
+    #newslitter .links h4 {
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    #newslitter .links ul li {
+        padding-bottom: 0px;
+        padding-left: 10px;
+    }
+}
